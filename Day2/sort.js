@@ -24,8 +24,8 @@ function merge(arr1, arr2, arr3, arr4, arr5) {
     return sortTwoArrays(...newArr, ...arr)
 }
 
-let arr1 = [7, 8, 10];
-let arr2 = [1, 5];
+let arr1 = [1, 78, 90, 92];
+let arr2 = [1, 2, 3, 4, 5, 6];
 let arr3 = [2, 20];
 let arr4 = [100, 200];
 let arr5 = [50, 53];
