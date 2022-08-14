@@ -1,8 +1,10 @@
 let isUnique = (str) => {
-    for (let i = 0; i < str.length; i++) {
-        if (str.indexOf(str[i]) !== i) {
+    let letter = {};
+    for (const key of str) {
+        if (letter[key]) {
             return false;
         }
+        letter[key] = true;
     }
     return true;
 }
